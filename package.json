@@ -1,0 +1,19 @@
+{
+  "name": "curso-front",
+  "version": "0.1.0",
+  "description": "Projeto descolado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciowalking/curso-front.git"
+  },
+  "author": "luciowalking",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luciowalking/curso-front/issues"
+  },
+  "homepage": "https://github.com/luciowalking/curso-front#readme"
+}

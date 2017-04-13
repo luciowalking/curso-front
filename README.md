@@ -3,9 +3,32 @@
 > Curso foda!
 
 ## Stack
+
 - Task Runner: [Gulp](http://gulpjs.com/)
 - HTML Template Engine: [Pug](https://pugjs.org/api/getting-started.html)
 - CSS Preprocessor: [Stylus](http://stylus-lang.com/)
+
+## Run the project locally
+
+**1 -** Prepare the environment:
+
+```sh
+$ npm install -g gulp-cli
+```
+
+**2 -** Clone the project and install the dependencies:
+
+```sh
+$ git clone https://github.com/luciowalking/curso-front.git
+$ cd csshortcut-app
+$ npm install
+```
+**3 -** Run static server and livereload:
+
+```sh
+$ gulp server
+```
+
 
 ## Folders Structure
 
@@ -35,6 +58,11 @@
 	├── projects.json
 	├── .editorconfig
 	└── .gitignore
+
+## Automatic Tasks
+
+- `$ gulp build`: Compile, concat and minify all files.
+- `$ gulp server`: Watch the files to build and start a static server.
 
 ## Versioning
 
